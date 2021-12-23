@@ -9,16 +9,16 @@ namespace Design_Patterns_Assignment
     public class BaseText : IBaseText
     {
         public string SecondTag { get; set; }
-        public string InputText { get; set; }
+        public string FirstTag { get; set; }
         public BaseText()
         {
-            InputText = "";
+            FirstTag = "";
             SecondTag = "";
         }
 
-        public string GetInputText()
+        public string GetFirstTag()
         {
-            return InputText;
+            return FirstTag;
         }
 
         public string GetSecondTag()

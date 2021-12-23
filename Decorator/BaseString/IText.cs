@@ -9,7 +9,7 @@ namespace Design_Patterns_Assignment
     public interface IText
     {
         
-        string GetInputText();
+        string GetFirstTag();
         string GetSecondTag();
     }
 }

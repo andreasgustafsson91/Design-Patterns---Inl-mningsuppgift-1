@@ -10,7 +10,7 @@ namespace Design_Patterns_Assignment
     {
         public IText Text { get; set; }
         IBaseText baseText = new BaseText();
-        public string InputText;
+        public string FirstTag;
         public string SecondTag;
 
         public TextDecorator(IText text)
@@ -18,9 +18,9 @@ namespace Design_Patterns_Assignment
             Text = text;
         }
 
-        public string GetInputText()
+        public string GetFirstTag()
         {
-            return InputText; /*+ Text.GetInputText();*/
+            return FirstTag; /*+ Text.GetInputText();*/
         }
 
         public string GetSecondTag()

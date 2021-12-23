@@ -12,7 +12,7 @@ namespace Design_Patterns_Assignment
         {
             string start = "<del>";
             string end = "</del>";
-            InputText = start;
+            FirstTag = start;
             SecondTag = end;
         }
     }
